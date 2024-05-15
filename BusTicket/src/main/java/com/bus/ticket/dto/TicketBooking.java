@@ -1,5 +1,7 @@
 package com.bus.ticket.dto;
 
+import java.time.LocalDateTime;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,9 +12,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuppressWarnings("unused")
-public class Bus {
-	
+public class TicketBooking {
 	private int id;
-	private String busLineName;
-	private String busType;
+	private String passengerName;
+	private String phone;
+	private LocalDateTime time;
+	private Ticket ticket;
+	
 }

@@ -10,9 +10,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuppressWarnings("unused")
-public class Bus {
-	
+public class Route {
+
 	private int id;
-	private String busLineName;
-	private String busType;
+	private String from;
+	private String to;
+	
 }
