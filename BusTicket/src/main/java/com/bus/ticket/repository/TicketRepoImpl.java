@@ -72,7 +72,6 @@ public class TicketRepoImpl implements TicketRepository {
 
 	@Override
 	public List<Ticket> findAllTicket() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

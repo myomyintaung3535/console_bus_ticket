@@ -11,7 +11,6 @@ public class Ticket {
 	private LocalTime time;
 
 	public Ticket() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public Ticket(int id, Bus bus, Route route, int price, LocalTime time) {
